@@ -10,10 +10,10 @@ public class App
     public static void main( String[] args )
     {
         CustomList<Integer> mylist = new CustomList<>();
-        mylist.add(1);
-        mylist.add(2);
-        mylist.add(3);
-        mylist.add(78);
+        mylist.add(10);
+        mylist.add(20);
+        mylist.add(30);
+        mylist.add(40);
         LOGGER.debug(mylist);
         mylist.remove(2);
         LOGGER.debug(mylist);
